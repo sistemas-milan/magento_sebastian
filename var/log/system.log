@@ -139,3 +139,75 @@
 [2023-11-01T16:17:02.583898+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_symbols was processed [] []
 [2023-11-01T16:17:02.584113+00:00] main.INFO: Add of item with id PayPal_Braintree::settlement_report was processed [] []
 [2023-11-01T16:17:02.584343+00:00] main.INFO: Add of item with id PayPal_Braintree::virtual_terminal was processed [] []
+[2023-11-02T03:06:35.373521+00:00] main.ERROR: Command "setup:sampledata" is not defined.
+
+Did you mean one of these?
+    setup:backup
+    setup:config:set
+    setup:db-data:upgrade
+    setup:db-declaration:generate-patch
+    setup:db-declaration:generate-whitelist
+    setup:db-schema:upgrade
+    setup:db:status
+    setup:di:compile
+    setup:install
+    setup:performance:generate-fixtures
+    setup:rollback
+    setup:static-content:deploy
+    setup:store-config:set
+    setup:uninstall
+    setup:upgrade
+#0 /var/www/html/magento2/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#1 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#2 /var/www/html/magento2/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#3 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2023-11-02T03:08:09.424364+00:00] main.ERROR: Command "sampledata" is not defined.
+
+Did you mean one of these?
+    sampledata:deploy
+    sampledata:remove
+    sampledata:reset
+#0 /var/www/html/magento2/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#1 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#2 /var/www/html/magento2/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#3 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2023-11-02T03:14:05.920680+00:00] main.ERROR: Sample Data error: Warning: file_get_contents(/var/www/html/magento2/pub/media/downloadable/files/links/l/u/luma_background_-_model_against_fence_4_sec_.mp4): Failed to open stream: No such file or directory in /var/www/html/magento2/vendor/magento/module-downloadable-sample-data/Model/Product/Converter.php on line 132 [] []
+[2023-11-02T03:15:48.809526+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2023-11-02T03:15:48.942081+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2023-11-02T03:15:49.093572+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2023-11-02T03:15:49.605713+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2023-11-02T03:15:49.733548+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2023-11-02T03:15:49.882048+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2023-11-02T03:16:05.464962+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 3334; Allocated memory size: 40008000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2023-11-02T12:42:38.370113+00:00] main.ERROR: Command "sampledata:install" is not defined.
+
+Did you mean one of these?
+    cron:install
+    i18n:uninstall
+    module:uninstall
+    sampledata:deploy
+    sampledata:remove
+    sampledata:reset
+    setup:install
+    setup:uninstall
+    theme:uninstall
+#0 /var/www/html/magento2/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#1 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#2 /var/www/html/magento2/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#3 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2023-11-02T12:48:30.345232+00:00] main.ERROR: Command "cache:clear" is not defined.
+
+Did you mean one of these?
+    cache:clean
+    cache:disable
+    cache:enable
+    cache:flush
+    cache:status
+#0 /var/www/html/magento2/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#1 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#2 /var/www/html/magento2/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#3 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#4 {main} [] []
