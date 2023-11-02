@@ -1,0 +1,8 @@
+<!-- Definición de tema heredando del tema Blank en el parent -->
+<theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/theme.xsd">
+    <title>Tema de Sebastián - Bicicletas Milán</title>
+    <parent>Magento/blank</parent>
+    <!-- <media>
+        <preview_image>media/preview.jpg</preview_image>
+    </media> -->
+</theme>
